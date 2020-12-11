@@ -20,5 +20,5 @@ class Square extends Shape{
   }
 }
 let square = new Square(5);
-console.log(square.calcperimeter());
+console.log(square.calcPerimeter());
 console.log(square.calcArea());
