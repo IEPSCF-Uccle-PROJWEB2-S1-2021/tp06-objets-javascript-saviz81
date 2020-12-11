@@ -16,7 +16,7 @@ class Square extends Shape{
     this.sideLength = sideLength;
   }
    calcArea(){
-    return 4*this.sideLength;
+    return this.sideLength*this.sideLength;
   }
 }
 let square = new Square(5);
